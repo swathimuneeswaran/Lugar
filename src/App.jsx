@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Digitalpage from "./pages/Digitalmarketing/Digitalpage";
 import Businessconsulting from "./pages/Business-consulting/Business-consulting";
-import Aboutus from "./pages/About-us/About-us";
+import Aboutus from "./pages/About-us/Aboutus";
 import Contactus from "./pages/Contact-us/Contactus";
 
 const App = () => {
@@ -16,13 +16,13 @@ const App = () => {
       <NavbarBanner />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index path="/" element={<Home />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<Digitalpage />} />
         <Route path="/services/business-consulting" element={<Businessconsulting />} />
         <Route path="/about-us" element={<Aboutus />} />
       </Routes>
-      <Contactus />
+      <Contactus/>
       <Testimonial />
       <Footer />
     </main>
