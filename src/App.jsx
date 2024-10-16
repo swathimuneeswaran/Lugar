@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Digitalpage from "./pages/Digitalmarketing/Digitalpage";
 import Businessconsulting from "./pages/Business-consulting/Business-consulting";
-import Aboutus from "./pages/About-us/Aboutus";
+import Aboutus from "./pages/About-us/Aboutus.jsx";
 import Contactus from "./pages/Contact-us/Contactus";
 
 const App = () => {
